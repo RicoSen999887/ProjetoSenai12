@@ -5,21 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 
 <body>
     <header>
         <a href="../index.html">
-            <img src="../assets/Honda_Logo.svg" alt="Honda_Logo" width="100px">
+            <img class="logoHonda" src="../assets/Honda.svg.png" alt="Honda_Logo">
         </a>
         <h1>
             Automobilistica Honda
         </h1>
+        <div class="divNav">
+            <a class="navId" href="../index.html">
+                <button class="botaoNav"><h2>Home</h2></button>
+            </a>
+            <a class="navId" href="login.html">
+                <button class="botaoNav"><h2>Faça Login</h2></button>
+            </a>
+        </div>
     </header>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="login.html">Faça Login</a>
-    </nav>
     <main>
         <form action="" onsubmit="alert('Cadastro Realizado')">
             <h2>
@@ -66,7 +72,7 @@
             </h3>
             <input type="text" name="" id="" required>
             <h3>
-                Estado
+                Estado:
             </h3>
             <input type="text" name="" id="" required>
             <h3>

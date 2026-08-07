@@ -1,0 +1,31 @@
+button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    padding: 10px;
+    height: auto;
+}
+
+table {
+    border: 2px solid #b30000;
+    width: 900px;
+}
+
+td {
+    border: 2px solid #b30000;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+.carro {
+    width: 400px;
+    height: 300px;
+}
