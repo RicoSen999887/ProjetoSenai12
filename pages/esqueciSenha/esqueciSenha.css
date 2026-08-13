@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    border: 2px solid #b30000;
+    border-radius: 15px;
+    color: #85868d;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    padding: 10px;
+    height: auto;
+}
+
+
+.ladinho {
+    display: flex;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    border-radius: 7px;
+    flex-direction: column;
+    padding-top: 100px;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+}
+
+#esqsenha {
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+
+.issoAi {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+}
